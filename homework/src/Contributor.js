@@ -7,7 +7,6 @@ class Contributor {
   constructor(data) {
     this.data = data;
   }
-
   render(contributorList) {
 
     const singleContributorContainer = Util.createAndAppend('div', contributorList, { class: 'single-contributor' });

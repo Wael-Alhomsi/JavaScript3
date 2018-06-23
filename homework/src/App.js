@@ -14,7 +14,6 @@ class App {
   constructor(url) {
     this.initialize(url);
   }
-
   async initialize(url) {
 
     try {

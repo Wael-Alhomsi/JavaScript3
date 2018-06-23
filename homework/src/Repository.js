@@ -7,7 +7,6 @@ class Repository {
   constructor(data) {
     this.data = data;
   }
-
   render(parent) {
 
     const {
